@@ -1,0 +1,48 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	background-image:url(812d7be9f97ac8a753e6a73997c71fea.jpg);
+	
+}
+body{
+	height: 980px;
+	width: 820px;	
+	margin: auto;
+}
+h1 {
+	font-size: 300%;
+}
+h2 {
+	font-size: 150%;
+}
+label {
+	font-weight: bold;
+	margin-bottom: 30px;
+	display: block;
+}
+input[type="text"], input[type="password"], input[type="submit"] {
+	width: 89%;
+	padding: 20px;
+	margin: 25px 0;
+	border-radius: 25px;
+	border: 1px solid #ffffff;
+}
+input[type="submit"] {
+	background-color: #7e23ce;
+	color: rgb(69, 219, 238);
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	
+	background-color: #509a14;
+}
+.forgot-password {
+	text-align: center;
+	font-size: 0.9em;
+}
+.forgot-password a {
+	color: #000000;
+	text-decoration: none;
+}
